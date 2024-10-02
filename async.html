@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async function</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Create custom error using try and catch</h1>
+            <div>
+                <input type="text" id="age" placeholder="Enter age between 18 to 30">
+                <button onclick="checkAge()" type="submit">Submit</button>
+                <p id="error"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="recap">
+        <button onclick="loadUser()">Fetch</button>
+        <button onclick="loadUserAsync()">Async Await</button>
+        <button onclick="loadUserArrow()">Arrow Async</button>
+        <button onclick="loadUserTryCatch()">Async Try-Catch</button>
+    </section>
+
+    
+    <script src="js/async.js"></script>
+    <script src="js/try-catch.js"></script>
+</body>
+</html>
